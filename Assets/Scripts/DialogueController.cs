@@ -66,7 +66,10 @@ public class DialogueController : MonoBehaviour
         {
             child.gameObject.SetActive(false);
         }
-
-        GameObject.FindWithTag("Player").GetComponent<PlayerBehaviour>().move = true;
+        PlayerBehaviour playerBehaviour = GameObject.FindWithTag("Player").GetComponent<PlayerBehaviour>();
+        playerBehaviour.move = true;
+        playerBehaviour.alcoholStatus += optionSelected.alcoholModifier;
+        playerBehaviour.funStatus += optionSelected.funModifier;
+        playerBehaviour.moneyStatus += optionSelected.moneyModifier;
     }
 }

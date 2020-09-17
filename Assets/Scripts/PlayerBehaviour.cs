@@ -6,14 +6,16 @@ public class PlayerBehaviour : MonoBehaviour
 {
 
     public float speed;
-    [HideInInspector]
-    public Vector3 movement = Vector3.right;
+    public Vector3 movement;
     [HideInInspector]
     public bool move = true;
     [HideInInspector]
     public Rigidbody2D rigidBody2D;
     [HideInInspector]
     public Vector3 triggerPosition;
+    public int alcoholStatus;
+    public int funStatus;
+    public int moneyStatus;
 
     // Start is called before the first frame update
     void Start()
