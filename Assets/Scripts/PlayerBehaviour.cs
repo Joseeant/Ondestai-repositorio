@@ -18,11 +18,14 @@ public class PlayerBehaviour : MonoBehaviour
     public int alcoholStatus;
     public int funStatus;
     public int moneyStatus;
+    [HideInInspector]
+    public Vector3 defaultMovement;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidBody2D = gameObject.GetComponent<Rigidbody2D>();
+        defaultMovement = Vector3.down;
     }
 
     // Update is called once per frame

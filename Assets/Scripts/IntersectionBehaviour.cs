@@ -47,9 +47,15 @@ public class IntersectionBehaviour : MonoBehaviour
             count++;
         }
 
-        if(count == 1)
+        if(count <= 1)
         {
-            playerBehaviour.movement = movement;
+            if(count == 0)
+            {
+                playerBehaviour.movement = playerBehaviour.defaultMovement;
+            } else
+            {
+                playerBehaviour.movement = movement;
+            }
             playerBehaviour.triggerPosition = transform.position;
             playerBehaviour.OneDirection = true;
             playerBehaviour.move = false;
