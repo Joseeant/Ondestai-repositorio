@@ -25,6 +25,7 @@ public class DialogueController : MonoBehaviour
         {
             child.gameObject.SetActive(false);
         }
+        optionSelected = null;
     }
 
     // Update is called once per frame
@@ -49,7 +50,7 @@ public class DialogueController : MonoBehaviour
 
     public void onClickOk()
     {
-        if(optionSelected.resultText != "") { 
+        if(optionSelected != null) { 
             mainText.text = optionSelected.resultText;
             image.gameObject.SetActive(true);
             image.sprite = optionSelected.image;
@@ -71,5 +72,7 @@ public class DialogueController : MonoBehaviour
         playerBehaviour.alcoholStatus += optionSelected.alcoholModifier;
         playerBehaviour.funStatus += optionSelected.funModifier;
         playerBehaviour.moneyStatus += optionSelected.moneyModifier;
+
+        optionSelected = null;
     }
 }

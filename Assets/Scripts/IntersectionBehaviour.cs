@@ -24,6 +24,38 @@ public class IntersectionBehaviour : MonoBehaviour
         //Disable the correct button
         disableButtonOnEnter();
 
+        int count = 0;
+        Vector3 movement = new Vector3();
+        if (upEnabled)
+        {
+            movement = Vector3.up;
+            count++;
+        }
+        if (rightEnabled)
+        {
+            movement = Vector3.right;
+            count++;
+        }
+        if (leftEnabled)
+        {
+            movement = Vector3.left;
+            count++;
+        }
+        if (downEnabled)
+        {
+            movement = Vector3.down;
+            count++;
+        }
+
+        if(count == 1)
+        {
+            playerBehaviour.movement = movement;
+            playerBehaviour.triggerPosition = transform.position;
+            playerBehaviour.OneDirection = true;
+            playerBehaviour.move = false;
+            return;
+        }
+
         //Activate canvas
         buttonsCanvas.GetChild(0).gameObject.SetActive(upEnabled);
         buttonsCanvas.GetChild(1).gameObject.SetActive(rightEnabled);

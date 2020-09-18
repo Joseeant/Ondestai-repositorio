@@ -10,6 +10,8 @@ public class PlayerBehaviour : MonoBehaviour
     [HideInInspector]
     public bool move = true;
     [HideInInspector]
+    public bool OneDirection = false;
+    [HideInInspector]
     public Rigidbody2D rigidBody2D;
     [HideInInspector]
     public Vector3 triggerPosition;
@@ -32,6 +34,11 @@ public class PlayerBehaviour : MonoBehaviour
         } else
         {
             transform.position = Vector3.MoveTowards(transform.position, triggerPosition, 0.03F);
+            if(OneDirection && triggerPosition == transform.position)
+            {
+                move = true;
+                OneDirection = false;
+            }
         }
     }
 }
