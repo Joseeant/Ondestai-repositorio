@@ -37,6 +37,7 @@ public class ButtonBehaviour : MonoBehaviour
 
         playerBehaviour.movement = movement;
         playerBehaviour.move = true;
+        //playerBehaviour.animator.enabled = true;
 
         foreach(Transform childButton in transform)
         {

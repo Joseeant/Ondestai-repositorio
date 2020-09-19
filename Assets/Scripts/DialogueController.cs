@@ -72,6 +72,7 @@ public class DialogueController : MonoBehaviour
         playerBehaviour.alcoholStatus += optionSelected.alcoholModifier;
         playerBehaviour.funStatus += optionSelected.funModifier;
         playerBehaviour.moneyStatus += optionSelected.moneyModifier;
+        //playerBehaviour.animator.enabled = true;
 
         optionSelected = null;
     }
