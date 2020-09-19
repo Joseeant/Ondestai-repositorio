@@ -5,8 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class EndBehaviour : MonoBehaviour
 {
+
+    public GameOverInfo gameOverInfo;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        GameObject.Find("GameOverController").GetComponent<GameOverController>().changeToGameOverScene(gameOverInfo);
     }
 }

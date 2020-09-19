@@ -1642,6 +1642,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775037d3587e18e479ba784144e2cbe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverInfo:
+    sprite: {fileID: 21300000, guid: d5dfa71873da16d46ade26d1a205dfd7, type: 3}
+    text: Final (Noria)
 --- !u!23 &308662762
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1768,6 +1771,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775037d3587e18e479ba784144e2cbe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverInfo:
+    sprite: {fileID: 21300000, guid: d5dfa71873da16d46ade26d1a205dfd7, type: 3}
+    text: Final (Caseta)
 --- !u!23 &353412314
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2632,6 +2638,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775037d3587e18e479ba784144e2cbe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverInfo:
+    sprite: {fileID: 21300000, guid: d5dfa71873da16d46ade26d1a205dfd7, type: 3}
+    text: Final
 --- !u!23 &676213925
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5323,6 +5332,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775037d3587e18e479ba784144e2cbe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverInfo:
+    sprite: {fileID: 21300000, guid: d5dfa71873da16d46ade26d1a205dfd7, type: 3}
+    text: Final (Start)
 --- !u!23 &1349614658
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6593,6 +6605,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775037d3587e18e479ba784144e2cbe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverInfo:
+    sprite: {fileID: 21300000, guid: d5dfa71873da16d46ade26d1a205dfd7, type: 3}
+    text: Final (Churros)
 --- !u!23 &1839536239
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6809,6 +6824,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775037d3587e18e479ba784144e2cbe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverInfo:
+    sprite: {fileID: 21300000, guid: d5dfa71873da16d46ade26d1a205dfd7, type: 3}
+    text: Final(Portada)
 --- !u!23 &1861962874
 MeshRenderer:
   m_ObjectHideFlags: 0
