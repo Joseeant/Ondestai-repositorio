@@ -890,11 +890,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
@@ -906,7 +906,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -914,11 +914,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -996,11 +996,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
@@ -1012,7 +1012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -1024,7 +1024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2202,11 +2202,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.funModifier
-      value: -2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -2218,7 +2218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: 1
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2707,11 +2707,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: 2
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: -2
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
@@ -2727,15 +2727,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
-      propertyPath: option2.funModifier
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
-      propertyPath: option2.moneyModifier
+      propertyPath: option2.funModifier
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -2818,7 +2818,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
@@ -2826,7 +2826,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.resultText
@@ -2838,15 +2838,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: -2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
-      propertyPath: option2.funModifier
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
-      propertyPath: option2.moneyModifier
+      propertyPath: option2.funModifier
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -3194,7 +3194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
@@ -3202,7 +3202,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.resultText
@@ -3214,7 +3214,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: -3
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.funModifier
@@ -3222,7 +3222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: -2
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -3370,15 +3370,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
-      propertyPath: option1.funModifier
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
-      propertyPath: option1.moneyModifier
+      propertyPath: option1.funModifier
       value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.resultText
@@ -3390,15 +3390,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
-      propertyPath: option2.funModifier
       value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
-      propertyPath: option2.moneyModifier
+      propertyPath: option2.funModifier
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -3521,11 +3521,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: -2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
@@ -3533,7 +3533,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.funModifier
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
@@ -3545,11 +3545,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
-      value: 4
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: 0
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3638,7 +3638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: -4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -3650,7 +3650,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: 2
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3728,11 +3728,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: -3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
@@ -3740,11 +3740,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.funModifier
-      value: 3
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: -3
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -3752,7 +3752,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
-      value: 1
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
@@ -4296,11 +4296,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: -6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: 3
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
@@ -4320,7 +4320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
-      value: -7
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
@@ -4397,11 +4397,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
@@ -4413,7 +4413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: 3
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -4425,7 +4425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: -2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4503,7 +4503,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: -3
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
@@ -4515,11 +4515,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.funModifier
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: -2
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -4527,11 +4527,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
-      value: -2
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: -8
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4674,11 +4674,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
@@ -4686,11 +4686,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.funModifier
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: 4
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -4702,7 +4702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: -3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5180,11 +5180,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: 4
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: -4
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
@@ -5204,7 +5204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
-      value: -8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
@@ -5559,7 +5559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: -5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
@@ -5575,11 +5575,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
       value: 0 -2 -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5706,7 +5714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: -3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
@@ -5718,11 +5726,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.funModifier
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: -2
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -5730,11 +5738,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
-      value: 2
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: 2
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5812,11 +5820,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: -5
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: -2
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
@@ -5828,7 +5836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.moneyModifier
-      value: -3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
@@ -5840,7 +5848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: 0
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
