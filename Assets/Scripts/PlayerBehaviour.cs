@@ -28,9 +28,13 @@ public class PlayerBehaviour : MonoBehaviour
     public GameOverInfo gameOverFunMin;
     public GameOverInfo gameOverMoneyMax;
     public GameOverInfo gameOverMoneyMin;
+    [HideInInspector]
+    public bool comeFromShortcut;  
+    [HideInInspector]
+    public ShortcutBehaviour shortcutBehaviour;
 
-    // Start is called before the first frame update
-    void Start()
+        // Start is called before the first frame update
+        void Start()
     {
         rigidBody2D = gameObject.GetComponent<Rigidbody2D>();
         defaultMovement = Vector3.down;
@@ -38,48 +42,50 @@ public class PlayerBehaviour : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (move)
         {
             //setAnimatorDirection();
             checkStats();
             rigidBody2D.MovePosition(transform.position + movement * speed * Time.fixedDeltaTime);
-        } else
+        }
+        else
         {
             transform.position = Vector3.MoveTowards(transform.position, triggerPosition, 0.01F);
-            if(triggerPosition == transform.position)
+            if (triggerPosition == transform.position)
             {
                 if (OneDirection)
                 {
                     move = true;
                     OneDirection = false;
-                } else
+                }
+                else
                 {
                     //animator.enabled = false;
                 }
-                
+
             }
         }
 
-       
+
     }
-/*
-    public void setAnimatorDirection()
-    {
-        if (movement == Vector3.up)
-            animator.SetInteger("direction", 0);
-        if (movement == Vector3.right)
-            animator.SetInteger("direction", 1);
-        if (movement == Vector3.left)
-            animator.SetInteger("direction", 2);
-        if (movement == Vector3.down)
-            animator.SetInteger("direction", 3);
-    }
-*/
+    /*
+        public void setAnimatorDirection()
+        {
+            if (movement == Vector3.up)
+                animator.SetInteger("direction", 0);
+            if (movement == Vector3.right)
+                animator.SetInteger("direction", 1);
+            if (movement == Vector3.left)
+                animator.SetInteger("direction", 2);
+            if (movement == Vector3.down)
+                animator.SetInteger("direction", 3);
+        }
+    */
     public void checkStats()
     {
-        if(alcoholStatus <= 0)
+        if (alcoholStatus <= 0)
         {
             GameObject.Find("GameOverController").GetComponent<GameOverController>()
                 .changeToGameOverScene(gameOverAlcoholMin);

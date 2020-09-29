@@ -14,4 +14,6 @@ public class Option
     public int moneyModifier;
     public Sprite image;
     public string resultText;
+    public bool activateShortcut;
+    public Vector3 direction;
 }

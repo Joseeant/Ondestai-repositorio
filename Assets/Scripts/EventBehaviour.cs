@@ -24,6 +24,11 @@ public class EventBehaviour : MonoBehaviour
         playerBehaviour.move = false;
         playerBehaviour.triggerPosition = transform.position;
 
+        if(playerBehaviour.comeFromShortcut)
+        {
+            playerBehaviour.shortcutBehaviour = gameObject.GetComponent<ShortcutBehaviour>();
+        }
+
         dialogueCanvas.GetComponent<DialogueController>().launchDialogue(introSentence, option1, option2);
     }
 }
