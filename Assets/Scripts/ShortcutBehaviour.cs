@@ -21,9 +21,13 @@ public class ShortcutBehaviour : MonoBehaviour
 
     public void activateButtons()
     {
-        buttonsCanvas.GetChild(0).gameObject.SetActive(upEnabled);
-        buttonsCanvas.GetChild(1).gameObject.SetActive(rightEnabled);
-        buttonsCanvas.GetChild(2).gameObject.SetActive(leftEnabled);
-        buttonsCanvas.GetChild(3).gameObject.SetActive(downEnabled);
+        if (!playerBehaviour.checkStats())
+        {
+            buttonsCanvas.GetChild(0).gameObject.SetActive(upEnabled);
+            buttonsCanvas.GetChild(1).gameObject.SetActive(rightEnabled);
+            buttonsCanvas.GetChild(2).gameObject.SetActive(leftEnabled);
+            buttonsCanvas.GetChild(3).gameObject.SetActive(downEnabled);
+        }
+
     }
 }

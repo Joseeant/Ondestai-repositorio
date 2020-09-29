@@ -28,22 +28,22 @@ public class IntersectionBehaviour : MonoBehaviour
         Vector3 movement = new Vector3();
         if (upEnabled)
         {
-            movement = Vector3.up;
+            movement = Vector2.up;
             count++;
         }
         if (rightEnabled)
         {
-            movement = Vector3.right;
+            movement = Vector2.right;
             count++;
         }
         if (leftEnabled)
         {
-            movement = Vector3.left;
+            movement = Vector2.left;
             count++;
         }
         if (downEnabled)
         {
-            movement = Vector3.down;
+            movement = Vector2.down;
             count++;
         }
 
@@ -81,15 +81,15 @@ public class IntersectionBehaviour : MonoBehaviour
 
     private void disableButtonOnEnter()
     {
-        if (playerBehaviour.movement == Vector3.up)
+        if (playerBehaviour.movement == Vector2.up)
         {
             downEnabled = false;
         }
-        else if (playerBehaviour.movement == Vector3.right)
+        else if (playerBehaviour.movement == Vector2.right)
         {
             leftEnabled = false;
         }
-        else if (playerBehaviour.movement == Vector3.left)
+        else if (playerBehaviour.movement == Vector2.left)
         {
             rightEnabled = false;
         }
@@ -101,15 +101,15 @@ public class IntersectionBehaviour : MonoBehaviour
 
     private void disableButtonOnExit()
     {
-        if (playerBehaviour.movement == Vector3.up)
+        if (playerBehaviour.movement == Vector2.up)
         {
             upEnabled = false;
         }
-        else if (playerBehaviour.movement == Vector3.right)
+        else if (playerBehaviour.movement == Vector2.right)
         {
             rightEnabled = false;
         }
-        else if (playerBehaviour.movement == Vector3.left)
+        else if (playerBehaviour.movement == Vector2.left)
         {
             leftEnabled = false;
         }
