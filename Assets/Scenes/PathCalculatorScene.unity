@@ -898,7 +898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: 0 0 0
+      value: 1 0 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.funModifier
@@ -910,7 +910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
-      value: 0 0 0
+      value: 1 0 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
@@ -918,7 +918,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.alcoholModifier
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772844, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_LocalPosition.x
@@ -984,7 +984,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: +4 0 +4
+      value: +4 +2 +4
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
@@ -992,7 +992,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.resultText
-      value: +4 0 +4
+      value: +4 +2 +4
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
@@ -1000,7 +1000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
