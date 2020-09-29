@@ -6,7 +6,7 @@ public class PlayerBehaviour : MonoBehaviour
 {
 
     public float speed;
-    public Vector3 movement;
+    public Vector2 movement;
     [HideInInspector]
     public bool move = true;
     [HideInInspector]
@@ -14,12 +14,12 @@ public class PlayerBehaviour : MonoBehaviour
     [HideInInspector]
     public Rigidbody2D rigidBody2D;
     [HideInInspector]
-    public Vector3 triggerPosition;
+    public Vector2 triggerPosition;
     public int alcoholStatus;
     public int funStatus;
     public int moneyStatus;
     [HideInInspector]
-    public Vector3 defaultMovement;
+    public Vector2 defaultMovement;
     //[HideInInspector]
     //public Animator animator;
     public GameOverInfo gameOverAlcoholMax;
@@ -28,86 +28,101 @@ public class PlayerBehaviour : MonoBehaviour
     public GameOverInfo gameOverFunMin;
     public GameOverInfo gameOverMoneyMax;
     public GameOverInfo gameOverMoneyMin;
+    [HideInInspector]
+    public bool comeFromShortcut;
+    [HideInInspector]
+    public ShortcutBehaviour shortcutBehaviour;
 
     // Start is called before the first frame update
     void Start()
     {
         rigidBody2D = gameObject.GetComponent<Rigidbody2D>();
-        defaultMovement = Vector3.down;
+        defaultMovement = Vector2.down;
         //animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if (move)
         {
             //setAnimatorDirection();
             checkStats();
-            rigidBody2D.MovePosition(transform.position + movement * speed * Time.fixedDeltaTime);
-        } else
+            rigidBody2D.MovePosition(rigidBody2D.position + movement * speed * Time.fixedDeltaTime);
+        }
+        else
         {
-            transform.position = Vector3.MoveTowards(transform.position, triggerPosition, 0.01F);
-            if(triggerPosition == transform.position)
+            rigidBody2D.position = Vector2.MoveTowards(rigidBody2D.position, triggerPosition, 0.05F);
+            if (triggerPosition == rigidBody2D.position)
             {
                 if (OneDirection)
                 {
                     move = true;
                     OneDirection = false;
-                } else
+                }
+                else
                 {
                     //animator.enabled = false;
                 }
-                
+
             }
         }
 
-       
+
     }
-/*
-    public void setAnimatorDirection()
+    /*
+        public void setAnimatorDirection()
+        {
+            if (movement == Vector3.up)
+                animator.SetInteger("direction", 0);
+            if (movement == Vector3.right)
+                animator.SetInteger("direction", 1);
+            if (movement == Vector3.left)
+                animator.SetInteger("direction", 2);
+            if (movement == Vector3.down)
+                animator.SetInteger("direction", 3);
+        }
+    */
+    public bool checkStats()
     {
-        if (movement == Vector3.up)
-            animator.SetInteger("direction", 0);
-        if (movement == Vector3.right)
-            animator.SetInteger("direction", 1);
-        if (movement == Vector3.left)
-            animator.SetInteger("direction", 2);
-        if (movement == Vector3.down)
-            animator.SetInteger("direction", 3);
-    }
-*/
-    public void checkStats()
-    {
-        if(alcoholStatus <= 0)
+        bool gameOver = false;
+        if (alcoholStatus <= 0)
         {
             GameObject.Find("GameOverController").GetComponent<GameOverController>()
                 .changeToGameOverScene(gameOverAlcoholMin);
+            gameOver = true;
         }
         else if (alcoholStatus >= 10)
         {
             GameObject.Find("GameOverController").GetComponent<GameOverController>()
                 .changeToGameOverScene(gameOverAlcoholMax);
+            gameOver = true;
         }
         else if (funStatus <= 0)
         {
             GameObject.Find("GameOverController").GetComponent<GameOverController>()
                 .changeToGameOverScene(gameOverFunMin);
+            gameOver = true;
         }
         else if (funStatus >= 10)
         {
             GameObject.Find("GameOverController").GetComponent<GameOverController>()
                 .changeToGameOverScene(gameOverFunMax);
+            gameOver = true;
         }
         else if (moneyStatus <= 0)
         {
             GameObject.Find("GameOverController").GetComponent<GameOverController>()
                 .changeToGameOverScene(gameOverMoneyMin);
+            gameOver = true;
         }
         else if (moneyStatus >= 10)
         {
             GameObject.Find("GameOverController").GetComponent<GameOverController>()
                 .changeToGameOverScene(gameOverMoneyMax);
+            gameOver = true;
         }
+
+        return gameOver;
     }
 }

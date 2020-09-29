@@ -31,14 +31,14 @@ public class DialogueController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     public void launchDialogue(string introSentence, Option option1, Option option2)
     {
-        foreach(Transform child in transform)
+        foreach (Transform child in transform)
         {
-            if(child.name != "Image" && child.name != "ContinueButton")
+            if (child.name != "Image" && child.name != "ContinueButton")
                 child.gameObject.SetActive(true);
         }
         this.option1 = option1;
@@ -50,7 +50,8 @@ public class DialogueController : MonoBehaviour
 
     public void onClickOk()
     {
-        if(optionSelected != null) { 
+        if (optionSelected != null)
+        {
             mainText.text = optionSelected.resultText;
             image.gameObject.SetActive(true);
             image.sprite = optionSelected.image;
@@ -63,17 +64,36 @@ public class DialogueController : MonoBehaviour
 
     public void onClickContinuar()
     {
-        foreach(Transform child in transform)
+        foreach (Transform child in transform)
         {
             child.gameObject.SetActive(false);
         }
         PlayerBehaviour playerBehaviour = GameObject.FindWithTag("Player").GetComponent<PlayerBehaviour>();
-        playerBehaviour.move = true;
         playerBehaviour.alcoholStatus += optionSelected.alcoholModifier;
         playerBehaviour.funStatus += optionSelected.funModifier;
         playerBehaviour.moneyStatus += optionSelected.moneyModifier;
+        playerBehaviour.move = true;
         //playerBehaviour.animator.enabled = true;
 
+        if (optionSelected.activateShortcut)
+        {
+            playerBehaviour.movement = optionSelected.direction;
+            playerBehaviour.comeFromShortcut = true;
+        }
+        else
+        {
+            if (playerBehaviour.comeFromShortcut)
+            {
+                playerBehaviour.shortcutBehaviour.activateButtons();
+                playerBehaviour.move = false;
+            }
+
+            playerBehaviour.comeFromShortcut = false;
+            
+        }
+
         optionSelected = null;
+
+
     }
 }
