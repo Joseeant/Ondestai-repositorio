@@ -15,19 +15,19 @@ public class PlayerBehaviour : MonoBehaviour
     public Rigidbody2D rigidBody2D;
     [HideInInspector]
     public Vector2 triggerPosition;
+    public int moneyStatus;
     public int alcoholStatus;
     public int funStatus;
-    public int moneyStatus;
     [HideInInspector]
     public Vector2 defaultMovement;
     //[HideInInspector]
     //public Animator animator;
+    public GameOverInfo gameOverMoneyMax;
+    public GameOverInfo gameOverMoneyMin;
     public GameOverInfo gameOverAlcoholMax;
     public GameOverInfo gameOverAlcoholMin;
     public GameOverInfo gameOverFunMax;
     public GameOverInfo gameOverFunMin;
-    public GameOverInfo gameOverMoneyMax;
-    public GameOverInfo gameOverMoneyMin;
     [HideInInspector]
     public bool comeFromShortcut;
     [HideInInspector]

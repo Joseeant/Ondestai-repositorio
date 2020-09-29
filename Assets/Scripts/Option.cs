@@ -7,11 +7,11 @@ public class Option
 {
     public string buttonText;
     [Range(-10, 10)]
+    public int moneyModifier;
+    [Range(-10, 10)]
     public int alcoholModifier;
     [Range(-10, 10)]
     public int funModifier;
-    [Range(-10, 10)]
-    public int moneyModifier;
     public Sprite image;
     public string resultText;
     public bool activateShortcut;
