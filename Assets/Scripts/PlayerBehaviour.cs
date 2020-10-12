@@ -20,6 +20,8 @@ public class PlayerBehaviour : MonoBehaviour
     public int funStatus;
     [HideInInspector]
     public Vector2 defaultMovement;
+    [HideInInspector]
+    public bool onPause = false;
     //[HideInInspector]
     //public Animator animator;
     public GameOverInfo gameOverMoneyMax;
@@ -44,31 +46,34 @@ public class PlayerBehaviour : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (move)
+        if (!onPause)
         {
-            //setAnimatorDirection();
-            checkStats();
-            rigidBody2D.MovePosition(rigidBody2D.position + movement * speed * Time.fixedDeltaTime);
-        }
-        else
-        {
-            rigidBody2D.position = Vector2.MoveTowards(rigidBody2D.position, triggerPosition, 0.05F);
-            if (triggerPosition == rigidBody2D.position)
+            if (move)
             {
-                if (OneDirection)
-                {
-                    move = true;
-                    OneDirection = false;
-                }
-                else
-                {
-                    //animator.enabled = false;
-                }
-
+                //setAnimatorDirection();
+                checkStats();
+                rigidBody2D.MovePosition(rigidBody2D.position + movement * speed * Time.fixedDeltaTime);
             }
+            else
+            {
+                rigidBody2D.position = Vector2.MoveTowards(rigidBody2D.position, triggerPosition, 0.05F);
+                if (triggerPosition == rigidBody2D.position)
+                {
+                    if (OneDirection)
+                    {
+                        move = true;
+                        OneDirection = false;
+                    }
+                    else
+                    {
+                        //animator.enabled = false;
+                    }
+
+                }
+            }
+        } else {
+            //animator.enabled = false;
         }
-
-
     }
     /*
         public void setAnimatorDirection()
