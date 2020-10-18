@@ -14,8 +14,10 @@ public class ButtonBehaviour : MonoBehaviour
         playerBehaviour = GameObject.FindWithTag("Player").GetComponent<PlayerBehaviour>();
     }
 
+    //Función que se ejecuta cuando se pulsa una flecha de dirección
     public void onClick(GameObject button)
-    {
+    {   
+        //En función del nombre se indica la dirección correspondiente
         switch (button.name)
         {
             case "UpButton":
@@ -35,10 +37,12 @@ public class ButtonBehaviour : MonoBehaviour
                 break;
         }
 
+        //Se indica la dirección en la que se tiene que mover
         playerBehaviour.movement = movement;
         playerBehaviour.move = true;
         //playerBehaviour.animator.enabled = true;
 
+        //Se desactivan los botones
         foreach(Transform childButton in transform)
         {
             childButton.gameObject.SetActive(false);

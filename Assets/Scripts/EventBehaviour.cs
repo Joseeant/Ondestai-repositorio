@@ -20,15 +20,17 @@ public class EventBehaviour : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        //Stop the player
+        //Se para al jugador
         playerBehaviour.move = false;
         playerBehaviour.triggerPosition = transform.position;
 
+        //Si viene de un atajo, se obtiene el componente
         if(playerBehaviour.comeFromShortcut)
         {
             playerBehaviour.shortcutBehaviour = gameObject.GetComponent<ShortcutBehaviour>();
         }
 
+        //Se inicia el diálogo
         dialogueCanvas.GetComponent<DialogueController>().launchDialogue(introSentence, option1, option2);
     }
 }

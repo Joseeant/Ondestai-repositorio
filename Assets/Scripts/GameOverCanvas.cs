@@ -10,7 +10,8 @@ public class GameOverCanvas : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {   
+        //se obtiene la información y se muestra en la pantalla
         GameObject gameOverController = GameObject.Find("GameOverController");
         GameOverInfo gameOverInfo = gameOverController.GetComponent<GameOverController>().gameOverInfo;
         previousScene = gameOverController.GetComponent<GameOverController>().currentScene;
@@ -20,6 +21,7 @@ public class GameOverCanvas : MonoBehaviour
         transform.GetChild(1).gameObject.GetComponent<Image>().sprite = gameOverInfo.sprite;
     }
 
+    //Función que se ejecuta al pulsar el botón de reintentar
     public void retry()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene(previousScene);

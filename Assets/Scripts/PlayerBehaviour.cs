@@ -18,8 +18,7 @@ public class PlayerBehaviour : MonoBehaviour
     public int moneyStatus;
     public int alcoholStatus;
     public int funStatus;
-    [HideInInspector]
-    public Vector2 defaultMovement;
+
     [HideInInspector]
     public bool onPause = false;
     //[HideInInspector]
@@ -39,26 +38,30 @@ public class PlayerBehaviour : MonoBehaviour
     void Start()
     {
         rigidBody2D = gameObject.GetComponent<Rigidbody2D>();
-        defaultMovement = Vector2.down;
         //animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        //Se comprueba si el juego está en pausa
         if (!onPause)
-        {
+        {  
+            //Si no está en pausa, comprueba si se tiene que mover o no
             if (move)
             {
                 //setAnimatorDirection();
+                //Se comprueba si se ha perdido por stats y se mueve en la dirección correspondiente
                 checkStats();
                 rigidBody2D.MovePosition(rigidBody2D.position + movement * speed * Time.fixedDeltaTime);
             }
             else
             {
+                //Si no se tiene que mover, se sitúa en la misma posición que el trigger que lo paró
                 rigidBody2D.position = Vector2.MoveTowards(rigidBody2D.position, triggerPosition, 0.05F);
                 if (triggerPosition == rigidBody2D.position)
                 {
+                    //Si solo hay una dirección, se mueve en esa dirección automáticamente
                     if (OneDirection)
                     {
                         move = true;
@@ -89,7 +92,8 @@ public class PlayerBehaviour : MonoBehaviour
         }
     */
     public bool checkStats()
-    {
+    {  
+        //Se comprueba cada una de las stats y si se pierde con alguna, cambia a la pantalla de Game Over
         bool gameOver = false;
         if (alcoholStatus <= 0)
         {

@@ -21,7 +21,7 @@ public class IntersectionBehaviour : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        //Disable the correct button
+        //Se desactiva el botón correspondiente
         disableButtonOnEnter();
 
         int count = 0;
@@ -47,35 +47,30 @@ public class IntersectionBehaviour : MonoBehaviour
             count++;
         }
 
-        if(count <= 1)
+        //Si solo se tiene que mover en una dirección, se mueve automáticamente
+        if(count == 1)
         {
-            if(count == 0)
-            {
-                playerBehaviour.movement = playerBehaviour.defaultMovement;
-            } else
-            {
-                playerBehaviour.movement = movement;
-            }
+            playerBehaviour.movement = movement;
             playerBehaviour.triggerPosition = transform.position;
             playerBehaviour.OneDirection = true;
             playerBehaviour.move = false;
             return;
         }
 
-        //Activate canvas
+        //Se activa el canvas
         buttonsCanvas.GetChild(0).gameObject.SetActive(upEnabled);
         buttonsCanvas.GetChild(1).gameObject.SetActive(rightEnabled);
         buttonsCanvas.GetChild(2).gameObject.SetActive(leftEnabled);
         buttonsCanvas.GetChild(3).gameObject.SetActive(downEnabled);
 
-        //Stop the player
+        //Se para al jugador
         playerBehaviour.move = false;
         playerBehaviour.triggerPosition = transform.position;
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        //Disable the correct button
+        //Se desactiva el botón correspondiente
         disableButtonOnExit();
     }
 
