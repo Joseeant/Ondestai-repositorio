@@ -48,7 +48,7 @@ public class IntersectionBehaviour : MonoBehaviour
         }
 
         //Si solo se tiene que mover en una dirección, se mueve automáticamente
-        if(count == 1)
+        if (count == 1)
         {
             playerBehaviour.movement = movement;
             playerBehaviour.triggerPosition = transform.position;
@@ -58,10 +58,20 @@ public class IntersectionBehaviour : MonoBehaviour
         }
 
         //Se activa el canvas
-        buttonsCanvas.GetChild(0).gameObject.SetActive(upEnabled);
-        buttonsCanvas.GetChild(1).gameObject.SetActive(rightEnabled);
-        buttonsCanvas.GetChild(2).gameObject.SetActive(leftEnabled);
-        buttonsCanvas.GetChild(3).gameObject.SetActive(downEnabled);
+        if (playerBehaviour.godModeOn)
+        {
+            buttonsCanvas.GetChild(0).gameObject.SetActive(true);
+            buttonsCanvas.GetChild(1).gameObject.SetActive(true);
+            buttonsCanvas.GetChild(2).gameObject.SetActive(true);
+            buttonsCanvas.GetChild(3).gameObject.SetActive(true);
+        }
+        else
+        {
+            buttonsCanvas.GetChild(0).gameObject.SetActive(upEnabled);
+            buttonsCanvas.GetChild(1).gameObject.SetActive(rightEnabled);
+            buttonsCanvas.GetChild(2).gameObject.SetActive(leftEnabled);
+            buttonsCanvas.GetChild(3).gameObject.SetActive(downEnabled);
+        }
 
         //Se para al jugador
         playerBehaviour.move = false;
