@@ -584,6 +584,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 717290798}
     m_Modifications:
+    - target: {fileID: 4111211628977359210, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 17.534992
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111211628977359210, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 559.90063
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111211628977359210, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -19.712
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111211628977359210, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 84.63258
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111211628977359220, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111211629499718368, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -61.419983
+      objectReference: {fileID: 0}
     - target: {fileID: 4111211629931487315, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1385,15 +1409,28 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Un guiri est\xE1 haci\xE9ndote se\xF1as y diciendo \u201Cfoto, foto\u201D
+        con su m\xF3vil y se\xF1alando a unas flamencas que hay esperando justo a
+        su lado. \xBFLes haces la foto o prefieres pasar? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: HACES LA FOTO
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: NO LA HACES
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "El guiri se encoge de hombros y se da media vuelta para preguntarle
+        a cualquier otro que pase por all\xED. Te sientes tan prescindible que acabas
+        ahogando tus penas en el fondo de una jarra de agua."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: Se quedan tan contentos con las fotos que te acaban pagando por ellas.
+        Al final te quedas charlando con ellos un rato y te invitan a algo de beber.
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -2105,15 +2142,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Te encuentras a un ni\xF1o perdido que est\xE1 llorando, te comenta
+        que ha perdido a sus padres y decides ayudarlo. \xBFEmpiezas a buscar por
+        la izquierda o por la derecha? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: IZQUIERDA
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: DERECHA
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "Encuentras a los padres enseguida y adem\xE1s te invitan a tomar algo. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "Ves un polic\xEDa corriendo hacia ti porque le ha llegado un aviso
+        de un secuestrador de ni\xF1os, decides dejarlo ah\xED y huir corriendo para
+        evitar m\xE1s problemas."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -22637,15 +22686,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Te encuentras a tus compa\xF1eros de clase y te dicen de tomar algo.
+        \xBFAceptas? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: SI
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: NO
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "Has pasado un rato s\xFAper agradable con tus compa\xF1eros de clase,
+        \xA1y adem\xE1s no te han agobiado hablando de ex\xE1menes! "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "Pides disculpas y sigues tu camino, entonces ves un billete de 5 euros
+        tirado en el suelo y decides correr hacia \xE9l. "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -22729,6 +22789,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 717290798}
     m_Modifications:
+    - target: {fileID: 5363524858274402094, guid: b57524802a9b49d4285d0461c4abf40d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -274.15002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363524858441712191, guid: b57524802a9b49d4285d0461c4abf40d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 60.700012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363524858760774617, guid: b57524802a9b49d4285d0461c4abf40d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 274.15002
+      objectReference: {fileID: 0}
     - target: {fileID: 5363524859465092880, guid: b57524802a9b49d4285d0461c4abf40d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -22824,6 +22896,10 @@ PrefabInstance:
     - target: {fileID: 5363524859465092908, guid: b57524802a9b49d4285d0461c4abf40d, type: 3}
       propertyPath: m_Name
       value: ButtonsCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 5363524859521782172, guid: b57524802a9b49d4285d0461c4abf40d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -68.900024
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b57524802a9b49d4285d0461c4abf40d, type: 3}
@@ -23639,15 +23715,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Te encuentras a tus padres y tus t\xEDos, que te invitan a tomar algo
+        de beber. \xBFAceptas? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: SI
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: NO
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "\xA1Bebida gratis! O casi, porque te ha costado un momento vergonzoso
+        en el que te han interrogado por tu vida amorosa."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "Tu madre se te ha acercado con disimulo y te ha dado algo m\xE1s de
+        dinero mientras te susurra que eso quedaba entre ella y t\xFA."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
