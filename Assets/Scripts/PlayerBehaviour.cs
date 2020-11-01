@@ -20,6 +20,9 @@ public class PlayerBehaviour : MonoBehaviour
     public int funStatus;
 
     [HideInInspector]
+    public bool godModeOn = false;
+
+    [HideInInspector]
     public bool onPause = false;
     //[HideInInspector]
     //public Animator animator;
@@ -46,7 +49,7 @@ public class PlayerBehaviour : MonoBehaviour
     {
         //Se comprueba si el juego está en pausa
         if (!onPause)
-        {  
+        {
             //Si no está en pausa, comprueba si se tiene que mover o no
             if (move)
             {
@@ -74,7 +77,9 @@ public class PlayerBehaviour : MonoBehaviour
 
                 }
             }
-        } else {
+        }
+        else
+        {
             //animator.enabled = false;
         }
     }
@@ -92,46 +97,55 @@ public class PlayerBehaviour : MonoBehaviour
         }
     */
     public bool checkStats()
-    {  
+    {
         //Se comprueba cada una de las stats y si se pierde con alguna, cambia a la pantalla de Game Over
         bool gameOver = false;
-        if (alcoholStatus <= 0)
+        if (!godModeOn)
         {
-            GameObject.Find("GameOverController").GetComponent<GameOverController>()
-                .changeToGameOverScene(gameOverAlcoholMin);
-            gameOver = true;
-        }
-        else if (alcoholStatus >= 10)
-        {
-            GameObject.Find("GameOverController").GetComponent<GameOverController>()
-                .changeToGameOverScene(gameOverAlcoholMax);
-            gameOver = true;
-        }
-        else if (funStatus <= 0)
-        {
-            GameObject.Find("GameOverController").GetComponent<GameOverController>()
-                .changeToGameOverScene(gameOverFunMin);
-            gameOver = true;
-        }
-        else if (funStatus >= 10)
-        {
-            GameObject.Find("GameOverController").GetComponent<GameOverController>()
-                .changeToGameOverScene(gameOverFunMax);
-            gameOver = true;
-        }
-        else if (moneyStatus <= 0)
-        {
-            GameObject.Find("GameOverController").GetComponent<GameOverController>()
-                .changeToGameOverScene(gameOverMoneyMin);
-            gameOver = true;
-        }
-        else if (moneyStatus >= 10)
-        {
-            GameObject.Find("GameOverController").GetComponent<GameOverController>()
-                .changeToGameOverScene(gameOverMoneyMax);
-            gameOver = true;
+            if (alcoholStatus <= 0)
+            {
+                GameObject.Find("GameOverController").GetComponent<GameOverController>()
+                    .changeToGameOverScene(gameOverAlcoholMin);
+                gameOver = true;
+            }
+            else if (alcoholStatus >= 10)
+            {
+                GameObject.Find("GameOverController").GetComponent<GameOverController>()
+                    .changeToGameOverScene(gameOverAlcoholMax);
+                gameOver = true;
+            }
+            else if (funStatus <= 0)
+            {
+                GameObject.Find("GameOverController").GetComponent<GameOverController>()
+                    .changeToGameOverScene(gameOverFunMin);
+                gameOver = true;
+            }
+            else if (funStatus >= 10)
+            {
+                GameObject.Find("GameOverController").GetComponent<GameOverController>()
+                    .changeToGameOverScene(gameOverFunMax);
+                gameOver = true;
+            }
+            else if (moneyStatus <= 0)
+            {
+                GameObject.Find("GameOverController").GetComponent<GameOverController>()
+                    .changeToGameOverScene(gameOverMoneyMin);
+                gameOver = true;
+            }
+            else if (moneyStatus >= 10)
+            {
+                GameObject.Find("GameOverController").GetComponent<GameOverController>()
+                    .changeToGameOverScene(gameOverMoneyMax);
+                gameOver = true;
+            }
         }
 
         return gameOver;
+    }
+
+    public void godModeButton() {
+        godModeOn = !godModeOn;
+        GameObject.Find("GodCanvas").transform.GetChild(1).gameObject.SetActive(godModeOn);
+        
     }
 }
