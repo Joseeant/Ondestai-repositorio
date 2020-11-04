@@ -25003,7 +25003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.y
