@@ -255,6 +255,30 @@ PrefabInstance:
         favorito, pero al pagar se equivocan con la vuelta y te dan m\xE1s dinero
         de la cuenta. Algo bueno ten\xEDa que pasar. "
       objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: -3
+      objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -805,13 +829,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
-      value: "Como supon\xEDas, hay cola para ir al ba\xF1o. Intentas buscar otro
-        ba\xF1o por la caseta en un intento de colarte, pero te acabas perdiendo
-        y sales a otra calle diferente."
+      value: "Te obligan a consumir para usar el ba\xF1o, y al buscarlo por la caseta,
+        te acabas perdiendo y sales a otra calle diferente."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.activateShortcut
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -989,6 +1036,26 @@ PrefabInstance:
       value: "El mono te lanza una botella casi vac\xEDa desde dentro, pero con tu
         pericia aleatoria la agarras al vuelo. Te bebes el culo sin mirar, pero resulta
         que estaba caliente."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: -5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -1189,6 +1256,30 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
       value: Te has tomado una pastilla azul.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -1455,6 +1546,30 @@ PrefabInstance:
         ignorarte completamente en la conversaci\xF3n. Como pareces invisible, aprovechas
         para robarle dinero a tu abuela. "
       objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -1549,6 +1664,30 @@ PrefabInstance:
       propertyPath: option1.resultText
       value: Se quedan tan contentos con las fotos que te acaban pagando por ellas.
         Al final te quedas charlando con ellos un rato y te invitan a algo de beber.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -2064,6 +2203,22 @@ PrefabInstance:
         lo quedas, pero te da igual que ese pobre hombre haya perdido su almuerzo
         y su orgullo, as\xED que te marchas. Ca\xF3tico malvado deber\xEDan llamarte. "
       objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -2296,6 +2451,30 @@ PrefabInstance:
       value: "Ves un polic\xEDa corriendo hacia ti porque le ha llegado un aviso
         de un secuestrador de ni\xF1os, decides dejarlo ah\xED y huir corriendo para
         evitar m\xE1s problemas."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -22966,6 +23145,30 @@ PrefabInstance:
       value: "Pides disculpas y sigues tu camino, entonces ves un billete de 5 euros
         tirado en el suelo y decides correr hacia \xE9l. "
       objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -23487,6 +23690,18 @@ PrefabInstance:
       value: "Sabia decisi\xF3n. Los encargados se pusieron muy tristes pero el sufrimiento
         ajeno no computa en este juego... "
       objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: -8
+      objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -23746,6 +23961,26 @@ PrefabInstance:
         tu dinero porque te lo pueden robar. Alude que Nervi\xF3n es un barrio pobre
         en un extenso chiste sin gracia bajo el sol."
       objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -23935,6 +24170,30 @@ PrefabInstance:
         toro grande rotacional o cruzamiento de cara. Al menos te invitar\xE1 a un
         vaso de agua para superar el disgusto."
       objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: -2
+      objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -24032,6 +24291,30 @@ PrefabInstance:
       propertyPath: option2.resultText
       value: "Tu madre se te ha acercado con disimulo y te ha dado algo m\xE1s de
         dinero mientras te susurra que eso quedaba entre ella y t\xFA."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -24134,6 +24417,30 @@ PrefabInstance:
       value: "Entras por la puerta de atr\xE1s y agarras corriendo la mochila de
         un desafortunado. Encuentras cinco pavos, alcohol et\xEDlico y un bonob\xFAs
         con la skin del Betis. Tu cuerpo los procesa de manera hilarante. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -24254,15 +24561,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.moneyModifier
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.alcoholModifier
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.funModifier
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.resultText
@@ -24274,6 +24581,18 @@ PrefabInstance:
       value: "Como lo llevas por la feria, le compras varias tonter\xEDas para que
         no se eche a llorar. Cuando encuentras a sus padres se pone tan contento
         que hasta te ha subido el \xE1nimo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -24391,6 +24710,22 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.direction.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -24699,6 +25034,30 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.direction.x
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -33240,6 +33599,30 @@ PrefabInstance:
         el globo de un puesto de escopetas de Murcia. Has ganado una bebida caliente
         y un peluche que no habla."
       objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.moneyModifier
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -33427,6 +33810,26 @@ PrefabInstance:
       propertyPath: option2.resultText
       value: "\xA1Tienes algo m\xE1s de dinero, pero era un timo! Ahora sientes mucha
         m\xE1s sed que antes y por culpa del calor te empieza a doler la cabeza."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.alcoholModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.funModifier
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.moneyModifier
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.alcoholModifier
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.funModifier
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
