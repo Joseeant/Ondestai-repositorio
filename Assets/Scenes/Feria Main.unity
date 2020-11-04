@@ -628,6 +628,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4111211628977359220, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
       propertyPath: m_FontData.m_FontSize
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111211628977359220, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
+      propertyPath: m_FontData.m_BestFit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111211628977359220, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4111211628977359220, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
+      propertyPath: m_FontData.m_MaxSize
       value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4111211629444670974, guid: 15b85a436b0b40942b4104af1d7b0d37, type: 3}
@@ -24349,7 +24361,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.y
@@ -24357,7 +24369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.resultText
@@ -24371,6 +24383,14 @@ PrefabInstance:
       value: "Bah, has montado demasiadas veces y te sabes los trucos. No merece
         la pena tu tiempo, as\xED que sigues andando mientras te asas como un pollo
         en un horno bajo el sol abrasador."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.activateShortcut
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.direction.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -24656,7 +24676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.resultText
@@ -24671,6 +24691,14 @@ PrefabInstance:
         Aprovechas la distracci\xF3n que ha creado tu amiga y coges dinero suelto
         que hab\xEDa en la taquilla. Cuando tu amiga sale de la atracci\xF3n, te
         cuenta toda la experiencia y os re\xEDs juntas de ello."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.activateShortcut
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.direction.x
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
