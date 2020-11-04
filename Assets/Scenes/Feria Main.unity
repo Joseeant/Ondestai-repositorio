@@ -219,15 +219,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Sientes tu est\xF3mago rugir, ves un puesto de comida y decides comer
+        algo. Hay una mesa vac\xEDa y en otra est\xE1 tu expareja que te hace se\xF1as
+        para que te acerques. \xBFComes a solas o comes con tu ex? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: COMES CON TU EX
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: A TU AIRE
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -240,6 +242,18 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "Pasas un rato agradable charlando y comiendo, y os acab\xE1is retando
+        para ver qui\xE9n come m\xE1s montaditos de anchoas con leche condensada.
+        Al final, acabas ganando. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "Al intentar levantarte se te cae la bebida encima, mancha tu vestido
+        favorito, pero al pagar se equivocan con la vuelta y te dan m\xE1s dinero
+        de la cuenta. Algo bueno ten\xEDa que pasar. "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -930,15 +944,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Est\xE1s a las puertas de una caseta destartalada donde un se\xF1or
+        tiene un mono dentro. Hay que pagar bastante por acariciarlo. \xBFAccedes? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: PAGAR Y ACARICIAR
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: NO, TA' SUSIO...
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -951,6 +966,17 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "El mono enloquece al contacto y te empuja contra la estructura, derrumbando
+        media caseta sobre ti. \xA1Tremendo sofoco!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "El mono te lanza una botella casi vac\xEDa desde dentro, pero con tu
+        pericia aleatoria la agarras al vuelo. Te bebes el culo sin mirar, pero resulta
+        que estaba caliente."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -1119,15 +1145,18 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Est\xE1s en una atracci\xF3n nueva que es un Escape Room y te has perdido
+        al final de un oscuro pasillo, donde hay un sal\xF3n con una mesa. En la
+        mesa hay dos pastillas, una roja y otra azul y una nota \u201CLa \xFAnica
+        forma de salir es tomando una decisi\xF3n\u201D. "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: P. IZQUIERDA
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: P. DERECHA
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -1140,6 +1169,14 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: 'Te has tomado una pastilla roja. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: Te has tomado una pastilla azul.
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -1978,15 +2015,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Pasas al lado de un se\xF1or fortach\xF3n del circo, al que se le cae
+        su comida al suelo. Enfadado, te reta a un pulso y encima, apuesta dinero.
+        \xBFLo aceptas o pasas? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: LO ACEPTAS
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: PASAS
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -1999,6 +2038,19 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "No vas a aguantar mucho porque las pesas que haces es con las bolsas
+        de la compra, as\xED que, entre tanta intensidad, intentas distraerle gui\xF1\xE1ndole
+        un ojo. Tu maniobra funciona y ganas. Te has llevado el dinero y unas buenas
+        risas."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "Niegas con la cabeza. El hombre te suplica d\xE1ndote un euro y te
+        lo quedas, pero te da igual que ese pobre hombre haya perdido su almuerzo
+        y su orgullo, as\xED que te marchas. Ca\xF3tico malvado deber\xEDan llamarte. "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -23389,15 +23441,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Un puesto de bu\xF1uelos de pr\xE1cticas. Sus dos encargados gritan
+        a coro: \"\xA1Te pagaremos por probar nuestra nueva receta! \xA1El bo\xF1oelo!\" "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: DAME, DAME
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: CHAO
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -23410,6 +23463,17 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "Resulta que bo\xF1oelo era una mezcla entre bu\xF1uelo y algo que parece
+        chocolate podrido. Esta guarrada se ha convertido en tu peor experiencia
+        gastron\xF3mica del a\xF1o. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "Sabia decisi\xF3n. Los encargados se pusieron muy tristes pero el sufrimiento
+        ajeno no computa en este juego... "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -23635,15 +23699,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "El Olawapa te intercepta. Con su cabello engominado y su camisa abierta
+        hasta los tobillos te pregunta si llevas dinero encima. \xBFQu\xE9 le dices? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: "\xA1OBSERVA!"
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: NO LLEVO EFECTIVO
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -23656,6 +23721,18 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "Le ense\xF1as tu cartera con varias monedas, tres pelusas y una estampa
+        de la virgen Macarena. El Olawapa te lanza una c\xF3mica mirada de conmiseraci\xF3n
+        por ser pobre y te da cuatro pavos."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "El Olawapa afirmar\xE1 que eres asquerosamente rico y no quieres ense\xF1ar
+        tu dinero porque te lo pueden robar. Alude que Nervi\xF3n es un barrio pobre
+        en un extenso chiste sin gracia bajo el sol."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -23811,15 +23888,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Vaya, est\xE1n robando en la atracci\xF3n de Toros Grandes Rotacionales.
+        \xBFLe paras los pies al ladr\xF3n? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: "AMO' ALL\xC1"
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: NOPE
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -23832,6 +23910,18 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "Le consigues arrebatar al ladr\xF3n el toro grande rotacional, pero
+        en el acalorado forcejeo ha conseguido quitarte unas pocas de monedas. Encima,
+        el due\xF1o ni siquiera dar\xE1 las gracias. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "El due\xF1o te acusar\xE1 de inacci\xF3n y te obliga a pagar por un
+        toro grande rotacional o cruzamiento de cara. Al menos te invitar\xE1 a un
+        vaso de agua para superar el disgusto."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -23998,15 +24088,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "La nueva atracci\xF3n de la feria: el simulador Super Bus 0027. \xBFTe
+        montas? Cuesta una pasta... "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: ADELANTE
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: "\xBFY SI ROBO...?"
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -24019,6 +24110,18 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "El bus te llevar\xE1 en un viaje interestelar hacia el planeta Sevilla
+        Este. Entre que vas y vienes, tus amigos han muerto y resucitado siete veces
+        y t\xFA est\xE1s agotado. Bebiste algo de gasoil robado para sobrevivir. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "Entras por la puerta de atr\xE1s y agarras corriendo la mochila de
+        un desafortunado. Encuentras cinco pavos, alcohol et\xEDlico y un bonob\xFAs
+        con la skin del Betis. Tu cuerpo los procesa de manera hilarante. "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -24232,15 +24335,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Pasas por la entrada de la casa del terror. Much\xEDsimos gritos salen
+        de dentro, y jurar\xEDas que has visto un fantasma salir de alg\xFAn lado
+        de la atracci\xF3n. \xBFQuieres entrar?"
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: "S\xCD"
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: NO
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -24253,6 +24358,19 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "Pagas tu entrada y empieza tu aventura. Resulta que en vez de esqueletos
+        y fantasmas te has encontrado a monstruos que ten\xEDan bebidas en la mano.
+        Aunque no esperabas nada de esa atracci\xF3n, has acabado bebiendo con ellos
+        y te lo has pasado bien."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "Bah, has montado demasiadas veces y te sabes los trucos. No merece
+        la pena tu tiempo, as\xED que sigues andando mientras te asas como un pollo
+        en un horno bajo el sol abrasador."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -24516,15 +24634,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Te has encontrado con tu amiga, a la que le encanta pasar miedo, enfrente
+        de la casa del terror. Quiere entrar contigo, pero se ha quedado sin dinero.
+        \xBFQuieres invitarle y pasar un buen rato con ella o prefieres pasar? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: 'INVITARLE Y ENTRAR '
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: PASAR
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -24537,6 +24657,20 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "Pagas las dos entradas y os aventur\xE1is al terror. Por alguna raz\xF3n,
+        los monstruos que os asustan tienen botellas en la mano, y mientras tu amiga
+        grita cada vez que da un paso y se agarra a ti, t\xFA vas cogiendo todas
+        las botellas de los bichos y te las vas bebiendo."
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "Prefieres no entrar, y tu amiga consigue entrar por darle pena al due\xF1o.
+        Aprovechas la distracci\xF3n que ha creado tu amiga y coges dinero suelto
+        que hab\xEDa en la taquilla. Cuando tu amiga sale de la atracci\xF3n, te
+        cuenta toda la experiencia y os re\xEDs juntas de ello."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -33042,15 +33176,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Mira, cabesa, un puesto de tiro, llamado \"No vas a ganar\". El hombre
+        te est\xE1 apuntando con una escopeta, me da que vas a tener que jugar. \xBFCon
+        cu\xE1l lo intentas? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: ESCOPETA BARATA...
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: ESCOPETA CARA...
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -33063,6 +33199,18 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "Era m\xE1s barata porque nadie la quiere usar... El hecho que el ca\xF1\xF3n
+        est\xE9 dado la vuelta apuntando a tu frente no ayuda. El hombre se come
+        tu dinero y te deja marchar. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "La escopeta est\xE1 tan terriblemente doblada al disparar que rompe
+        el globo de un puesto de escopetas de Murcia. Has ganado una bebida caliente
+        y un peluche que no habla."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
@@ -33218,15 +33366,17 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: marta
+      value: "Sientes mucha sed y ves una figura a lo lejos. \xA1ES UN CONEJO CON
+        FORMA HUMANA! Se acerca a ti y te pregunta si quieres un vaso, ibas a negarte,
+        pero te pagar\xE1 por probar uno de ellos. Te da dos a elegir. "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
-      value: marta si
+      value: ESA MANO
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.buttonText
-      value: marta tambien
+      value: LA OTRA
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.activateShortcut
@@ -33239,6 +33389,16 @@ PrefabInstance:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.direction.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option1.resultText
+      value: "Pierdes el conocimiento durante unos instantes, tienes m\xE1s de dinero,
+        y te sientes bien. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
+      propertyPath: option2.resultText
+      value: "\xA1Tienes algo m\xE1s de dinero, pero era un timo! Ahora sientes mucha
+        m\xE1s sed que antes y por culpa del calor te empieza a doler la cabeza."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772834, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: m_Enabled
