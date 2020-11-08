@@ -23124,8 +23124,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: introSentence
-      value: "Te encuentras a tus compa\xF1eros de clase y te dicen de tomar algo.
-        \xBFAceptas? "
+      value: "Te encuentras a tus compa\xF1eros de clase y te preguntan si te apetece
+        tomar algo. \xBFAceptas? "
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option1.buttonText
@@ -25017,8 +25017,8 @@ PrefabInstance:
       propertyPath: option1.resultText
       value: "Pagas las dos entradas y os aventur\xE1is al terror. Por alguna raz\xF3n,
         los monstruos que os asustan tienen botellas en la mano, y mientras tu amiga
-        grita cada vez que da un paso y se agarra a ti, t\xFA vas cogiendo todas
-        las botellas de los bichos y te las vas bebiendo."
+        grita cada segundo que pasa, t\xFA vas cogiendo todas las botellas de los
+        monstruos y te las vas bebiendo."
       objectReference: {fileID: 0}
     - target: {fileID: 5005910075687772832, guid: 5c2d9c95400c1d94e88c6493e3910767, type: 3}
       propertyPath: option2.resultText
