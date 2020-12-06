@@ -25,7 +25,7 @@ public class IntersectionBehaviour : MonoBehaviour
         disableButtonOnEnter();
 
         int count = 0;
-        Vector3 movement = new Vector3();
+        Vector2 movement = new Vector2();
         if (upEnabled)
         {
             movement = Vector2.up;
@@ -102,6 +102,8 @@ public class IntersectionBehaviour : MonoBehaviour
         {
             upEnabled = false;
         }
+
+       StartCoroutine(enableWallOnEnter(playerBehaviour.movement));
     }
 
     private void disableButtonOnExit()
@@ -122,5 +124,55 @@ public class IntersectionBehaviour : MonoBehaviour
         {
             downEnabled = false;
         }
+
+        StartCoroutine(enableWallOnExit(playerBehaviour.movement));
+    }
+
+    IEnumerator enableWallOnExit(Vector2 direction) {
+
+yield return new WaitForSeconds(5);
+        
+        if (direction == Vector2.up)
+        {
+            transform.Find("Top Wall").gameObject.SetActive(true);
+        }
+        else if (direction == Vector2.right)
+        {
+            transform.Find("Right Wall").gameObject.SetActive(true);
+        }
+        else if (direction == Vector2.left)
+        {
+            transform.Find("Left Wall").gameObject.SetActive(true);
+        }
+        else
+        {
+           transform.Find("Down Wall").gameObject.SetActive(true);
+        }
+
+       
+    }
+
+    IEnumerator enableWallOnEnter(Vector2 direction) {
+
+yield return new WaitForSeconds(5);
+        
+        if (direction == Vector2.up)
+        {
+            transform.Find("Bottom Wall").gameObject.SetActive(true);
+        }
+        else if (direction == Vector2.right)
+        {
+            transform.Find("Left Wall").gameObject.SetActive(true);
+        }
+        else if (direction == Vector2.left)
+        {
+            transform.Find("Right Wall").gameObject.SetActive(true);
+        }
+        else
+        {
+           transform.Find("Top Wall").gameObject.SetActive(true);
+        }
+
+        yield return new WaitForSeconds(5);
     }
 }
